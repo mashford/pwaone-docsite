@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Svg and Texts
+# Svg and Text Length
 
 Here is an example how we can use monospace fonts to calculate the width of the text. The width of the text is calculated by the following formula:
 
@@ -13,29 +13,30 @@ import React from "react";
 import "./style.css";
 
 export default function App() {
+  const text = "1234567";
+  const width = String(0.6 * 20 * text.length);
+  console.log(width);
   React.useEffect(() => {
     const element = document.getElementById("text");
     const cssObj = window.getComputedStyle(element, null);
     console.log(cssObj.getPropertyValue("width"));
     console.log(cssObj.getPropertyValue("font-family"));
     console.log(element.getBoundingClientRect().width);
-    // width = 18px * number of characters + 0.015625px
   });
   return (
     <div>
-      <svg width="150" height="100" xmlns="http://www.w3.org/2000/svg">
+      <svg width={width} height="20" xmlns="http://www.w3.org/2000/svg">
         <rect width="100%" height="100%" fill="green" />
-        <circle cx="75" cy="50" r="40" fill="yellow" />
         <text
           id="text"
-          x="75"
-          y="60"
-          fontSize="30"
+          x={`${width / 2}`}
+          y="17"
+          fontSize="20"
           fontFamily="'Courier New', monospace"
           textAnchor="middle"
           fill="red"
         >
-          12345
+          {text}
         </text>
       </svg>
     </div>
@@ -43,4 +44,4 @@ export default function App() {
 }
 ```
 
-(link)[https://stackblitz.com/edit/react-ocr4kn?file=src%2FApp.js,src%2Findex.js]
+[link](https://stackblitz.com/edit/react-ocr4kn?file=src%2FApp.js,src%2Findex.js)

@@ -23,10 +23,3 @@ import Svg from "./img/svg-and-text.svg";
 [link](https://stackoverflow.com/questions/1732292/svg-text-font-with-fixed-width-height)
 
 unfortunately, we have to compute the text size manually, but we can use the `getBBox` method to get the text size.
-
-```javascript
-// here we get the text size
-const text = document.querySelector("text");
-const bbox = text.getBBox();
-console.log(bbox);
-```
