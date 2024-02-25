@@ -26,7 +26,8 @@ export default function Home(): JSX.Element {
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Writings and Thoughts of Shi
+& PWA One doc site"
     >
       <HomepageHeader />
       <main>
