@@ -26,5 +26,20 @@ Bcs it's hard to use.
 
 ## A meaningless combat
 
-Most cross-platform apps uses web stack or flutter. Some Apps in AppStore are just wrapped web pages. Why bother make web apps AppStore apps? Is it because ...lack of a web app store?
+Most cross-platform apps uses web stack or flutter. And people
 
+## there are already Webview apps
+
+Many Apps in AppStore are just wrapped web pages... Their number is larger than you think. 
+
+Why bother make web apps AppStore apps? Is it because ...lack of a web app store?
+
+If no others are interested in that, I would build it.
+
+## Why HTML5 failed 10 years ago
+
+refer to this [link](https://www.theverge.com/2012/8/23/3262782/facebook-for-ios-native-app)
+
+Now your new iphone15 is many many times faster than the iphones back then. A well designed PWA won't have a speed issue today.
+
+##
