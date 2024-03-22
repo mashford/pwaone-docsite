@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Tutorial Intro
 
-Let's discover **PWA One**, the ultimate App store.
+Let's discover **PWA One**, the ultimate Web App store.
 
 ## Getting Started
 
