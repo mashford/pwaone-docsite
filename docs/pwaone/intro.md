@@ -12,7 +12,7 @@ Click [https://pwaone.com](https://pwaone.com) to get the PWA (Alpha version).
 
 Notice that you are supposed to use it on
 
-## Why combine personal blogs and reflection
+## Why combine personal blogs and Tutorial
 
 My personal life doesn't matter. joking.
 
