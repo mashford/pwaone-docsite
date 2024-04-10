@@ -58,4 +58,4 @@ Could PWAs be unlisted or forced out on iPhones? No. Check here for Apple's newe
 
   2. Exploit the web stack.
 
-  3. Available on all platforms
+  3. Automatic cross platforms
